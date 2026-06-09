@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Verified — NasbUlSaddat</title>
+    <style>
+      :root {
+        --brand: #1f6feb;
+        --ok: #1a9e57;
+        --ink: #1a1a1a;
+        --muted: #5c6670;
+        --bg: #ffffff;
+        --soft: #f5f7fa;
+        --line: #e3e8ee;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Helvetica, Arial, sans-serif;
+        color: var(--ink);
+        background: var(--soft);
+        line-height: 1.6;
+        padding: 24px;
+      }
+      .card {
+        background: var(--bg);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 40px 32px;
+        max-width: 440px;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 8px 30px rgba(31, 111, 235, 0.08);
+      }
+      .badge {
+        width: 84px;
+        height: 84px;
+        margin: 0 auto 22px;
+        border-radius: 50%;
+        background: rgba(26, 158, 87, 0.12);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .badge svg {
+        width: 44px;
+        height: 44px;
+        stroke: var(--ok);
+        stroke-width: 3;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      h1 {
+        font-size: 1.55rem;
+        margin: 0 0 10px;
+      }
+      p {
+        margin: 0 0 8px;
+        color: var(--muted);
+        font-size: 1rem;
+      }
+      .hint {
+        margin-top: 22px;
+        padding: 14px 16px;
+        background: var(--soft);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        font-size: 0.95rem;
+        color: var(--ink);
+      }
+      .brand {
+        color: var(--brand);
+        font-weight: 600;
+      }
+      footer {
+        margin-top: 26px;
+        font-size: 0.82rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <div class="badge" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="10" />
+          <path d="M8 12.5l2.5 2.5L16 9" />
+        </svg>
+      </div>
+      <h1>Email verified successfully</h1>
+      <p>Your <span class="brand">NasbUlSaddat</span> account has been confirmed.</p>
+      <p>You're all set — your account is now active.</p>
+      <div class="hint">
+        You can close this page and return to the <strong>NasbUlSaddat</strong>
+        app to sign in.
+      </div>
+      <footer>&copy; NasbUlSaddat</footer>
+    </main>
+  </body>
+</html>
